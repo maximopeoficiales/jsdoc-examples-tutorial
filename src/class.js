@@ -41,7 +41,7 @@ newProgrammer.getInfo();
  * Github Library
  * @example
  * const github = new Github({
- *  username: 'fazt',
+ *  username: 'maximopeoficiales',
  *  token: 'xyz123'
  * });
  *

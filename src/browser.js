@@ -3,7 +3,7 @@
  * @param {HTMLTableElement} table The Target Table
  * @param {Array<string>} data An array of string names
  * @returns {void}
- * @author Fazt <faztweb.com>
+ * @author maximopeoficiales <https://maximopeoficiales.github.io/chichoproyect>
  */
 function generateTableHead(table, data) {
   const thead = table.createTHead();
