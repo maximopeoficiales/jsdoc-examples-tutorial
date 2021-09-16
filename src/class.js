@@ -5,7 +5,7 @@
 class Programmer {
   /**
    *
-   * @param {Object} user User's Information
+   * @param {{fullname: string}} user User's Information
    * @param {string} language A programming language name
    */
   constructor(user, language) {
@@ -34,7 +34,7 @@ class Programmer {
 /**
  * Know more in {@link Programmer}
  */
-const newProgrammer = new Programmer({ fullname: "Ryan Ray" }, "golang");
+const newProgrammer = new Programmer({ fullname: "maximo" }, "golang");
 newProgrammer.getInfo();
 
 /**
